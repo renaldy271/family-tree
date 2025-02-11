@@ -1,0 +1,55 @@
+{
+    "members": [
+        {
+            "id": 5,
+            "photo": "/uploads/1737616224055-lost-in-space-404-3840x2160-18155.png",
+            "name": "ava",
+            "info": "ini adalah kakek",
+            "category": "grandparent",
+            "age": 70,
+            "gender": "male"
+        },
+        {
+            "id": 6,
+            "photo": "/uploads/1737616269963-asus.jpg",
+            "name": "LL",
+            "info": "ini adalah anak dari ava",
+            "category": "parent",
+            "age": 40,
+            "gender": "male"
+        },
+        {
+            "id": 7,
+            "photo": "/uploads/1737616557339-OIP.jpeg",
+            "name": "AA",
+            "info": "anak pertama dari LL",
+            "category": "child",
+            "age": 22,
+            "gender": "female"
+        },
+        {
+            "id": 8,
+            "photo": "/uploads/1737616584906-OIP.jpeg",
+            "name": "BB",
+            "info": "Anak ke dua dari LL",
+            "category": "child",
+            "age": 18,
+            "gender": "male"
+        },
+        {
+            "id": 9,
+            "photo": "/uploads/1737616607265-OIP.jpeg",
+            "name": "CC",
+            "info": "Anak ketiga dari LL",
+            "category": "child",
+            "age": 10,
+            "gender": "male"
+        }
+    ],
+    "sqlite_sequence": [
+        {
+            "name": "members",
+            "seq": 9
+        }
+    ]
+}
