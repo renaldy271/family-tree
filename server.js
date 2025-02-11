@@ -29,6 +29,11 @@ db.serialize(() => {
   `);
 });
 
+fetch('family_tree.json')
+  .then(response => response.json())
+  .then(data => console.log(data))
+  .catch(error => console.error('Error loading JSON:', error));
+
 // Routes
 app.get('/members', (req, res) => {
   db.all('SELECT * FROM members', (err, rows) => {
